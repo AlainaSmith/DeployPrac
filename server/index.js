@@ -11,4 +11,4 @@ app.get('/', function(req, res) {
 
 const port = process.envPORT || 4005
 
-app.listen(port, () => (console.log('Avengers! Assemble... on port ${port}. ')))
+app.listen(port, () => {console.log(`Avengers! Assemble... on port ${port}.`)})
